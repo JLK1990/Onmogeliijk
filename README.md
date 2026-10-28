@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De drie concepten hebben AI-gegenereerde fotorealistische proefbeelden in WebP-formaat. Kaart 002 is door de gebruiker goedgekeurd en heeft geen proefmarkering meer. Kaarten 001 en 003 blijven gemarkeerd als tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De drie concepten hebben AI-gegenereerde fotorealistische proefbeelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaart 003 blijft een tijdelijke proefkaart. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -54,4 +54,8 @@ De drie afbeeldingen zijn speciaal voor deze app gegenereerd, zonder externe sto
 - **002:** geloofwaardig interieur en textiel. De lege hals en gedragen deken suggereren afwezigheid; kan ook als een verborgen persoon worden gelezen. Dit is de minst eenduidige proef en vraagt verdere artistieke beoordeling.
 - **003:** zichtbaar lokale regen en spatten op de tafel, zonnige droge omgeving. De oorsprong van de regen valt buiten beeld; bij een volgende versie kan het beginpunt in de lucht explicieter worden.
 
-Kaart 002 (de lege stoel met de deken) is door de gebruiker definitief goedgekeurd; de proefmarkering is voor die kaart verwijderd. Kaarten 001 en 003 wachten nog op afzonderlijke goedkeuring.
+Kaarten 001 (bloempot) en 002 (lege stoel met de deken) zijn door de gebruiker goedgekeurd; de proefmarkeringen zijn verwijderd. Kaart 003 wacht nog op afzonderlijke goedkeuring.
+
+### Herziening kaart 003
+
+De eerste keukenregen kon als lekkage worden gelezen en is niet langer actief. De nieuwe proef `regen-omhoog.webp` toont druppelsporen boven de ontbijttafel, met zichtbaar droog plafond en een vrije ruimte boven het water. Het idee is opwaartse regen; de bewegingsrichting is in een stilstaand beeld nog dubbelzinnig. Deze versie is daarom nadrukkelijk een proef, geen definitief goedgekeurd werk. De vragen zijn aangepast aan het nieuwe concept. Het oude beeld blijft als niet-actieve versie bewaard.

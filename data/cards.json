@@ -5,12 +5,12 @@
     "concept": "Een gewone straat waarin de gevolgen van een gebeurtenis al zichtbaar zijn, terwijl de gebeurtenis zelf nog niet heeft plaatsgevonden.",
     "image": "assets/gevolg-voor-oorzaak.webp",
     "alt": "Een intacte bloempot hangt boven een stoep waarop scherven, aarde en eenzelfde plant al verspreid liggen.",
-    "status": "trial",
+    "status": "approved",
     "questions": [
       "Kan iets al gebeurd zijn voordat het begint?",
       "Waaraan merk je dat iets begonnen is?"
     ],
-    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+    "source": "AI-gegenereerd voor ONMOGELIJK?; door de gebruiker goedgekeurd."
   },
   {
     "id": "002",
@@ -27,14 +27,14 @@
   },
   {
     "id": "003",
-    "title": "De regen die binnen blijft",
-    "concept": "Een zonnige keuken waarin het uitsluitend boven de ontbijttafel regent. De rest van de ruimte blijft droog.",
-    "image": "assets/regen-binnen.webp",
-    "alt": "In een zonnige keuken valt regen boven een gedekte ontbijttafel; de omliggende keuken blijft droog.",
+    "title": "De regen die omhoog wil",
+    "concept": "Een zonnige keuken waarin druppels vanuit de ontbijttafel omhoog lijken te vallen, met droge lucht tussen het water en het intacte plafond.",
+    "image": "assets/regen-omhoog.webp",
+    "alt": "Boven een natte ontbijttafel hangen druppelsporen in de lucht; daarboven is ruimte tot een droog, intact keukenplafond.",
     "status": "trial",
     "questions": [
-      "Waar houdt het weer op?",
-      "Wat maakt een plek beschut?"
+      "Kan regen ook een andere kant op?",
+      "Wat bepaalt welke kant iets opgaat?"
     ],
     "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   }

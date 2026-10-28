@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met acht kaarten. De acht concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003 tot en met 008 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met vijftien kaarten. De vijftien concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003 tot en met 015 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -81,3 +81,17 @@ Op verzoek is alleen het beeld van 006 herzien: ook de jassen, achterdeur en tra
 - **008 — Het boek dat jou leest:** close-up over de schouder met een fotografische herhaling van de lezer, het boek en de bibliotheek op de bladzijden. De echte lezer kijkt omlaag, haar afgebeelde gezicht kijkt terug. De drie opgegeven vragen zijn letterlijk overgenomen. Volledig eigen scène, zonder verwijzingen naar The NeverEnding Story.
 
 Beide nieuwe beelden zijn geoptimaliseerde WebP-bestanden van 1536 × 1024 pixels en blijven gemarkeerd als proefkaarten tot afzonderlijke goedkeuring. Alle overige bestaande kaartgegevens zijn tegen de vorige Git-versie gecontroleerd en ongewijzigd.
+
+### Vijf nieuwe scenario’s (009–013)
+
+De straat met meerdere benedenkanten, Het schuurtje dat een bos bevat, De gang met deuren naar overal, Het raam dat naar binnen kijkt en De schaduwen van wie je had kunnen zijn zijn toegevoegd, elk met de twee exact aangeleverde vragen. Alle eerdere kaarten zijn ongewijzigd. De tekst ‘KIJK MAAR EVEN. JE HOEFT NIETS OP TE LOSSEN.’ is uit de interface verwijderd zonder vervanging.
+
+De vijf eigen AI-beelden zijn WebP-bestanden van 1536 × 1024, ieder onder 500 KB. Beeldbeoordeling: de gevelwandelaars tonen een andere zwaartekrachtrichting; het bos heeft onmogelijk veel diepte achter het kleine schuurtje; de drie deurwerelden zijn tegelijk zichtbaar; het raam heeft open scharnierende ramen en een zichtbare buitenmuur in plaats van een spiegel; de vier verschillende schaduwen komen samen bij één werkelijk aanwezige persoon. De straatwandelaars zijn enigszins schuin in plaats van exact horizontaal. De raamherhaling kan als identieke kamers tegenover elkaar worden gelezen. Daarom blijven de beelden proefkaarten voor afzonderlijke inhoudelijke goedkeuring; er ontbreken geen beeldbestanden.
+
+### Kaarten 014 en 015 — collectie van vijftien
+
+**De voetstappen die vooruitlopen** toont verse afdrukken vóór de wandelaar, met opspattende modder rond een afdruk zonder voet erboven. De vorming is zichtbaar; de exacte overeenkomst tussen alle zooldetails blijft een aandachtspunt bij beoordeling. **Het gesprek dat zichtbaar wordt** toont doorzichtige trillingen vanaf de monden, inclusief een afbuigende, uiteenvallende golf. De rimpelingen zijn vrij nadrukkelijk; de precieze aankomst bij het oor is minder eenduidig dan het ontstaan bij de monden. Beide beelden zijn daarom gemarkeerde proefversies. De vier opgegeven vragen zijn letterlijk overgenomen.
+
+De collectie bevat exact vijftien unieke kaart-id’s (001–015). De zeven nieuwe beelden uit deze ontwikkelronde zijn beschikbaar als WebP; er ontbreken geen beeldbestanden. Definitieve inhoudelijke goedkeuring blijft apart. De acht eerder gepubliceerde kaarten zijn object voor object vergeleken met Git en ongewijzigd. De dertien kaarten die voorafgingen aan de laatste twee zijn ook behouden.
+
+Controle van deze ronde: alle zeven nieuwe kaarten apart in Chromium op 390 en 1440 pixels breed gecontroleerd op geladen beelden, exact gekoppelde vragen zonder herhaling, verborgen vragen bij een nieuwe kaart en afwezigheid van horizontale overflow. De verwijderde figcaption is niet meer aanwezig. Tests uitgevoerd onder het projectpad `/Onmogeliijk/`. Rechtstreekse controle van de live GitHub Pages-site werd door de netwerkproxy geblokkeerd met HTTP 403; dit is geen vastgestelde fout in de website en de live deployment is hier niet bevestigd.

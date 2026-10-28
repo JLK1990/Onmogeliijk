@@ -104,5 +104,96 @@
       "Kun je iets bekijken zonder er zelf deel van uit te maken?"
     ],
     "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "009",
+    "title": "De straat met meerdere benedenkanten",
+    "concept": "Mensen lopen over de stoep en tegen verticale gevels alsof elke richting een eigen beneden heeft.",
+    "image": "assets/straat-benedenkanten.webp",
+    "alt": "Voetgangers wandelen rustig over een stoep, terwijl drie anderen met hun voeten tegen de verticale bakstenen gevel lopen.",
+    "status": "trial",
+    "questions": [
+      "Is jouw vanzelfsprekendheid ook die van een ander?",
+      "Kan dezelfde wereld voor iedereen anders werken?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "010",
+    "title": "Het schuurtje dat een bos bevat",
+    "concept": "Een klein houten schuurtje van ongeveer twee bij twee meter bevat achter de open deur een enorm bos.",
+    "image": "assets/schuurtje-bos.webp",
+    "alt": "Een klein houten tuinschuurtje staat met de deur open; achter de drempel strekt een bos met hoge bomen en een diep pad zich uit.",
+    "status": "trial",
+    "questions": [
+      "Is iets groot of klein, of hangt dat af van wie er kijkt?",
+      "Kun je meer in je hebben dan je laat zien?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "011",
+    "title": "De gang met deuren naar overal",
+    "concept": "Drie deuren in één gewone gang openen tegelijk naar een zonnig strand, besneeuwde bergen en een gewone keuken.",
+    "image": "assets/deuren-overal.webp",
+    "alt": "In één gewone gang openen drie deuropeningen naar een zonnig strand met zee, besneeuwde bergen en een houten keuken.",
+    "status": "trial",
+    "questions": [
+      "Hoe ver weg is ergens anders?",
+      "Moet je ver reizen om ergens anders te zijn?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "012",
+    "title": "Het raam dat naar binnen kijkt",
+    "concept": "Een open raam kijkt uit op dezelfde slaapkamer en dezelfde persoon die opnieuw voor hetzelfde raam staat.",
+    "image": "assets/raam-naar-binnen.webp",
+    "alt": "Een vrouw kijkt door een open slaapkamerraam naar dezelfde kamer met hetzelfde gele bed, blauwe lamp en dezelfde vrouw, opnieuw van achteren gezien.",
+    "status": "trial",
+    "questions": [
+      "Kun je buiten jezelf staan?",
+      "Waar eindigt binnen en begint buiten?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "013",
+    "title": "De schaduwen van wie je had kunnen zijn",
+    "concept": "Eén persoon werpt meerdere schaduwen met verschillende leeftijden en houdingen, alsof mogelijke levens tegelijk zichtbaar worden.",
+    "image": "assets/schaduwen-levens.webp",
+    "alt": "Eén vrouw staat bij een raam; vanuit haar voeten lopen vier schaduwen naar de muur: een kind, een rechte volwassene, een gebogen oudere en een zittende figuur.",
+    "status": "trial",
+    "questions": [
+      "Hoeveel levens passen er in één leven?",
+      "Ben je ook een beetje wie je niet geworden bent?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "014",
+    "title": "De voetstappen die vooruitlopen",
+    "concept": "Verse voetafdrukken met dezelfde zolen en looprichting ontstaan in de modder vóór een rustig wandelende persoon, nog voordat diens voeten die plekken bereiken.",
+    "image": "assets/voetstappen-vooruit.webp",
+    "alt": "Een wandelaar komt over een modderig tuinpad naar voren; ruim voor zijn opgeheven laars vormt zich een diepe zoolafdruk met opspattende modder, zonder voet erboven.",
+    "status": "trial",
+    "questions": [
+      "Kun je ergens naartoe gaan zonder te weten waarheen?",
+      "Volg je altijd je eigen weg?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "015",
+    "title": "Het gesprek dat zichtbaar wordt",
+    "concept": "In een gewoon café worden woorden zichtbaar als brekende en afbuigende luchttrillingen; sommige bereiken de ander, andere vervormen of lossen op.",
+    "image": "assets/gesprek-zichtbaar.webp",
+    "alt": "Twee mensen praten aan een cafétafeltje; doorzichtige rimpelingen komen uit hun monden, lopen naar de ander en vallen onderweg deels uiteen.",
+    "status": "trial",
+    "questions": [
+      "Komt wat je zegt altijd aan zoals je het bedoelt?",
+      "Kun je elkaar begrijpen zonder hetzelfde te horen?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   }
 ]

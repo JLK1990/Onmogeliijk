@@ -20,8 +20,8 @@
     "alt": "In een zonnige woonkamer houdt een deken op een fauteuil de vorm van een zittend lichaam vast, met een lege halsopening.",
     "status": "approved",
     "questions": [
-      "Kan iets verdwijnen zonder weg te zijn?",
-      "Wat blijft er achter als iets verdwijnt?"
+      "Als iemand er niet is, is die dan helemaal weg?",
+      "Kun je iemands aanwezigheid voelen als die er niet is?"
     ],
     "source": "AI-gegenereerd voor ONMOGELIJK?; door de gebruiker goedgekeurd."
   },
@@ -33,8 +33,8 @@
     "alt": "Boven een natte ontbijttafel hangen druppelsporen in de lucht; daarboven is ruimte tot een droog, intact keukenplafond.",
     "status": "trial",
     "questions": [
-      "Kan regen ook een andere kant op?",
-      "Wat bepaalt welke kant iets opgaat?"
+      "Kan een gevolg ook een oorzaak zijn?",
+      "Moet iets altijd ergens beginnen?"
     ],
     "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   },
@@ -59,8 +59,22 @@
     "alt": "Naast een kleine houten boekenkast staat een grote spiegel met daarin een hoge, diepe bibliotheek en een weerspiegelde rand van de fauteuil.",
     "status": "trial",
     "questions": [
-      "Is iets altijd even groot?",
-      "Kan iets kleiner worden zonder te veranderen?"
+      "Kan een herinnering veranderen terwijl het verleden hetzelfde blijft?",
+      "Is de plek die je je herinnert dezelfde plek waar je ooit was?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "006",
+    "title": "De gang van vroeger",
+    "concept": "Een plek kan de afmetingen van een herinnering hebben. Een volwassene staat in een vertrouwde gang met een opvallend hoge deurklink, een enorme kapstok en een indrukwekkend steile trap.",
+    "image": "assets/gang-van-vroeger.webp",
+    "alt": "Een volwassen vrouw staat in een alledaagse gang bij een deur met de klink ver boven haar hoofd; naast haar hangen enorme jassen en loopt een steile trap omhoog.",
+    "status": "trial",
+    "questions": [
+      "Verandert een plek als jij verandert?",
+      "Welke dingen zie je anders met de ogen van nu?",
+      "Is de plek die je je herinnert dezelfde plek waar je ooit was?"
     ],
     "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   }

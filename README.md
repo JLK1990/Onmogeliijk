@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met vijf kaarten. De vijf concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003, 004 en 005 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met zes kaarten. De zes concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003, 004, 005 en 006 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -66,3 +66,9 @@ De bestaande kaart-id’s blijven stabiel. De twee nieuwe ideeën zijn daarom to
 
 - **004 — Vier tijden aan één tafel:** één doorlopende tafel en kamer met vier lichtmomenten, ontbijt tot nacht. De verschillende tijden zijn duidelijk zichtbaar, ook in het raam; het beeld blijft een proef voor inhoudelijke beoordeling.
 - **005 — De boekenkast die groter wordt:** een kleine kast naast een grote spiegel met een diepe bibliotheek. Fotografisch overtuigend, maar de spiegel kan ook als doorgang worden gelezen en de exacte overeenkomst van de kast is niet volledig. Daarom nog niet definitief goedgekeurd.
+
+### Inhoudsronde — De gang van vroeger
+
+De vragen voor water op tafel (003), sofa/deken (002) en spiegel/boekenkast (005) zijn letterlijk vervangen door de aangeleverde selectie. Bloempot (001) en vier mensen aan tafel (004) zijn volledig ongewijzigd.
+
+Kaart **006 — De gang van vroeger** heeft drie aangeleverde vragen en een eigen fotorealistisch AI-beeld: een volwassene naast een deurklink ver boven haar hoofd, een enorme kapstok en een steile trap. Het natuurlijke licht, terrazzo, hout en textiel ondersteunen de geloofwaardigheid; de afwijkende schaal is zichtbaar. Het WebP-bestand is 1536 × 1024 pixels en kleiner dan 500 KB. Geen placeholder of definitief vervangend beeld nodig; inhoudelijke goedkeuring staat nog open, daarom blijft de proefmarkering actief.

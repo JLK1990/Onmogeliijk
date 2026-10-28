@@ -60,9 +60,9 @@ test('failed card load leaves start unavailable and explains failure', async () 
   assert.equal(el('start').disabled, true);
   assert.match(el('status').textContent, /niet worden geladen/);
 });
-test('all five artworks are valid WebP files with accessible descriptions', async () => {
-  assert.equal(cards.length, 5);
-  assert.equal(new Set(cards.map((c) => c.id)).size, 5);
+test('all six artworks are valid WebP files with accessible descriptions', async () => {
+  assert.equal(cards.length, 6);
+  assert.equal(new Set(cards.map((c) => c.id)).size, 6);
   for (const card of cards) {
     assert.ok(['trial', 'approved'].includes(card.status));
     assert.ok(card.alt.length > 40);

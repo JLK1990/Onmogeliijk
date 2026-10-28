@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De eigen SVG-illustraties zijn placeholders, geen definitieve fotorealistische beelden. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De drie nieuwe concepten gebruiken neutrale beeldplaatsen met tekst, geen definitieve kunstwerken. De oorspronkelijke SVG-illustraties blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -13,11 +13,11 @@ python3 -m http.server 8000 --bind 0.0.0.0
 
 Open lokaal `http://localhost:8000`. Gebruik een webserver: rechtstreeks openen via `file://` ondersteunt het laden van JSON niet. Stop met Ctrl+C.
 
-Controleer: Verras me → beeld → Ontdek de vraag → Andere vraag → Verras me opnieuw. Een nieuw beeld verschilt van het vorige. Vragen herhalen pas nadat alle vragen van de kaart zijn getoond; ook bij het begin van een nieuwe ronde wordt directe herhaling vermeden. Tab en Enter/Spatie bedienen de knoppen. De interface respecteert verminderde beweging.
+Controleer: Verras me → beeld → Ontdek de vraag → Andere vraag → Verras me opnieuw. Een nieuw beeld verschilt van het vorige. Vragen herhalen pas nadat alle vragen van de kaart zijn getoond; ook bij het begin van een nieuwe ronde wordt directe herhaling vermeden. De vraagvolgorde wordt per kaart onthouden zolang de pagina open blijft, ook na het wisselen naar een andere kaart. Tab en Enter/Spatie bedienen de knoppen. De interface respecteert verminderde beweging.
 
 ## Kaarten toevoegen of vervangen
 
-Bewerk `data/cards.json`. Elke kaart heeft een unieke `id`, een relatief `image`-pad, een beschrijvende `alt` en meerdere unieke `questions`. Plaats eigen of aantoonbaar gelicentieerde beelden in `assets/`. Gebruik relatieve paden zodat de app ook onder een GitHub Pages-projectpad werkt. De proefkaartmarkering staat in `index.html`; pas die pas aan wanneer de proefbeelden zijn vervangen. Verwijder ongebruikte proefbestanden en leg de rechten van nieuwe beelden vast.
+Bewerk `data/cards.json`. Elke kaart heeft een unieke `id`, een relatief `image`-pad, een beschrijvende `alt` en meerdere unieke `questions`. Plaats eigen of aantoonbaar gelicentieerde beelden in `assets/`. Gebruik relatieve paden zodat de app ook onder een GitHub Pages-projectpad werkt. Gebruik `status: "placeholder"` voor proefbeelden en `status: "approved"` alleen na afzonderlijke beeldbeoordeling. De proefkaartmarkering wordt automatisch verborgen bij goedgekeurde kaarten. `title` en `concept` documenteren het idee zonder de bezoeker een interpretatie voor te schrijven. Gebruik bij voorkeur geoptimaliseerde WebP-beelden (circa 1600–2000 pixels breed); belangrijke details blijven zichtbaar doordat beelden niet worden bijgesneden. Verwijder ongebruikte proefbestanden en leg de rechten van nieuwe beelden vast.
 
 ## Publiceren met GitHub Pages
 
@@ -37,3 +37,11 @@ Geen backend, database, account, API-sleutel of buildstap nodig. Publicatie is e
 - `data/cards.json`: inhoud.
 - `assets/`: eigen tijdelijke illustraties.
 - `tests/flow.mjs`: interactietest zonder externe testafhankelijkheden; uitvoeren met `node --test tests/flow.mjs` (Node 20+).
+
+## Ontwikkelronde: droomlogica
+
+De drie proefconcepten zijn Het gevolg vóór de oorzaak, Het huis dat zich iets herinnert en De regen die binnen blijft. Ieder concept heeft de opgegeven hoofdvraag en één extra vraag. Er zijn nog geen definitieve beelden of automatisch goedgekeurde AI-beelden toegevoegd. Beoordeel kandidaten afzonderlijk op fotografische geloofwaardigheid, originaliteit, zichtbare onmogelijkheid en nieuwsgierigheid. Een aantrekkelijk beeld zonder de bedoelde paradox valt af.
+
+De initiatiefvermelding linkt naar Je Kern tot Bloei. De referentiesite kon vanuit de ontwikkelomgeving niet worden opgehaald (HTTP 403). Het aangeleverde logo is als visuele referentie gebruikt: wit, donkergrijs en twee roze tinten. Het roze accent is voor knoptekstcontrast verdiept. Dit zijn visueel afgeleide kleuren, geen bevestigde huisstijlwaarden. De precieze lettertypen zijn onbekend; de app gebruikt lokale systeemlettertypen. Het logo is zichtbaar in de chat, maar het oorspronkelijke afbeeldingsbestand is nog niet beschikbaar in de werkruimte en is daarom nog niet ingebed.
+
+Browsercontrole met Chromium: volledige klikvolgorde op 390 × 844 en 1440 × 1000, geladen beelden, geen horizontale overflow en geen JavaScript-fouten. Geautomatiseerde interactietests controleren ook vraaggeschiedenis bij terugkeer naar een kaart.

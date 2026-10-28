@@ -25,12 +25,19 @@ test('complete flow, non-repeating cards and question rounds', async () => {
   click('start');
   assert.equal(el('intro').hidden, true);
   assert.equal(el('experience').hidden, false);
+  const history = new Map();
+  function record(card, question) {
+    let seen = history.get(card.id) || new Set();
+    if (seen.size === card.questions.length) seen = new Set();
+    assert.ok(!seen.has(question), "question repeated before all questions were used");
+    seen.add(question);
+    history.set(card.id, seen);
+  }
   for (let round = 0; round < 30; round++) {
     assert.equal(el('question-panel').hidden, true);
     assert.equal(el('reveal').hidden, false);
     const image = el('card-image').src;
     const card = cards.find((c) => c.image === image);
-    const seen = new Set();
     click('reveal');
     assert.equal(el('reveal').hidden, true);
     assert.equal(el('question-panel').hidden, false);
@@ -38,12 +45,12 @@ test('complete flow, non-repeating cards and question rounds', async () => {
       if (q) click('another');
       const question = el('question').textContent;
       assert.ok(card.questions.includes(question));
-      assert.ok(!seen.has(question));
-      seen.add(question);
+      record(card, question);
     }
     const last = el('question').textContent;
     click('another');
     assert.notEqual(el('question').textContent, last);
+    record(card, el('question').textContent);
     click('next');
     assert.notEqual(el('card-image').src, image);
   }
@@ -57,7 +64,8 @@ test('all three original placeholders exist and have accessible descriptions', a
   assert.equal(cards.length, 3);
   assert.equal(new Set(cards.map((c) => c.id)).size, 3);
   for (const card of cards) {
-    assert.ok(card.alt.startsWith('Tijdelijke illustratie:'));
+    assert.equal(card.status, 'placeholder');
+    assert.ok(card.alt.startsWith('Tijdelijke beeldplaats'));
     assert.match(await readFile(new URL(`../${card.image}`, import.meta.url), 'utf8'), /<svg/);
   }
 });

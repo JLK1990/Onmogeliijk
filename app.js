@@ -3,13 +3,17 @@ let cards = [];
 let current = null;
 let remaining = [];
 let lastQuestion = null;
+const questionRounds = new Map();
 const pick = (items) => items[Math.floor(Math.random() * items.length)];
 
 function showCard() {
   const options = cards.filter((card) => card !== current);
   current = pick(options.length ? options : cards);
-  remaining = [...current.questions];
-  lastQuestion = null;
+  const round = questionRounds.get(current.id) || { remaining: [...current.questions], lastQuestion: null };
+  remaining = round.remaining;
+  lastQuestion = round.lastQuestion;
+  $('status').textContent = '';
+  $('card-label').hidden = current.status !== 'placeholder';
   $('card-image').src = current.image;
   $('card-image').alt = current.alt;
   $('card-number').textContent = `${String(cards.indexOf(current) + 1).padStart(2, '0')} / ${String(cards.length).padStart(2, '0')}`;
@@ -26,6 +30,7 @@ function showQuestion() {
   const question = pick(options.length ? options : remaining);
   remaining.splice(remaining.indexOf(question), 1);
   lastQuestion = question;
+  questionRounds.set(current.id, { remaining, lastQuestion });
   $('question').textContent = question;
   $('reveal').hidden = true;
   $('question-panel').hidden = false;
@@ -49,6 +54,7 @@ async function init() {
       typeof card.alt === 'string' && card.alt.trim() && Array.isArray(card.questions) &&
       card.questions.length && card.questions.every((q) => typeof q === 'string' && q.trim()) &&
       new Set(card.questions).size === card.questions.length)) throw new Error('Ongeldige kaarten');
+    if (new Set(cards.map((card) => card.id)).size !== cards.length) throw new Error('Dubbele kaart-id');
     $('start').disabled = false;
     $('status').textContent = '';
   } catch {

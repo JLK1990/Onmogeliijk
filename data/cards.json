@@ -1,17 +1,38 @@
 [
   {
-    "id": "deur", "image": "assets/deur.svg",
-    "alt": "Tijdelijke illustratie: een vrijstaande deur op een leeg landschap, met een stukje nacht achter de opening.",
-    "questions": ["Waar zou je willen uitkomen als je zomaar een deur kon openen?", "Wat maakt een plek voor jou de moeite waard om te ontdekken?", "Wat zou je van de andere kant willen zien?"]
+    "id": "001",
+    "title": "Het gevolg vóór de oorzaak",
+    "concept": "Een gewone straat waarin de gevolgen van een gebeurtenis al zichtbaar zijn, terwijl de gebeurtenis zelf nog niet heeft plaatsgevonden.",
+    "image": "assets/proef-001.svg",
+    "alt": "Tijdelijke beeldplaats voor proefconcept 001: Het gevolg vóór de oorzaak. Het definitieve beeld ontbreekt nog.",
+    "status": "placeholder",
+    "questions": [
+      "Kan iets al gebeurd zijn voordat het begint?",
+      "Waaraan merk je dat iets begonnen is?"
+    ]
   },
   {
-    "id": "zee", "image": "assets/zee.svg",
-    "alt": "Tijdelijke illustratie: een stille zee met een rechthoekig stukje water dat boven het oppervlak zweeft.",
-    "questions": ["Wat zou je van dichtbij willen bekijken?", "Wanneer wordt iets gewoons voor jou bijzonder?", "Wat zou er gebeuren als dit heel normaal was?"]
+    "id": "002",
+    "title": "Het huis dat zich iets herinnert",
+    "concept": "Een gewone kamer waarin de afwezigheid van iets of iemand op een fysiek onmogelijke manier zichtbaar is.",
+    "image": "assets/proef-002.svg",
+    "alt": "Tijdelijke beeldplaats voor proefconcept 002: Het huis dat zich iets herinnert. Het definitieve beeld ontbreekt nog.",
+    "status": "placeholder",
+    "questions": [
+      "Kan iets verdwijnen zonder weg te zijn?",
+      "Wat blijft er achter als iets verdwijnt?"
+    ]
   },
   {
-    "id": "schaduw", "image": "assets/schaduw.svg",
-    "alt": "Tijdelijke illustratie: een kleine boom op een vlakte met een schaduw in de vorm van een trap.",
-    "questions": ["Wat zou je ontdekken als je een ander standpunt koos?", "Wat trekt als eerste je aandacht als je ergens nieuw bent?", "Waar zou een onverwacht pad je naartoe mogen brengen?"]
+    "id": "003",
+    "title": "De regen die binnen blijft",
+    "concept": "Een zonnige keuken waarin het uitsluitend boven de ontbijttafel regent. De rest van de ruimte blijft droog.",
+    "image": "assets/proef-003.svg",
+    "alt": "Tijdelijke beeldplaats voor proefconcept 003: De regen die binnen blijft. Het definitieve beeld ontbreekt nog.",
+    "status": "placeholder",
+    "questions": [
+      "Waar houdt het weer op?",
+      "Wat maakt een plek beschut?"
+    ]
   }
 ]

@@ -60,12 +60,16 @@ test('failed card load leaves start unavailable and explains failure', async () 
   assert.equal(el('start').disabled, true);
   assert.match(el('status').textContent, /niet worden geladen/);
 });
-test('all three original placeholders exist and have accessible descriptions', async () => {
+test('all three trial artworks are valid WebP files with accessible descriptions', async () => {
   assert.equal(cards.length, 3);
   assert.equal(new Set(cards.map((c) => c.id)).size, 3);
   for (const card of cards) {
-    assert.equal(card.status, 'placeholder');
-    assert.ok(card.alt.startsWith('Tijdelijke beeldplaats'));
-    assert.match(await readFile(new URL(`../${card.image}`, import.meta.url), 'utf8'), /<svg/);
+    assert.equal(card.status, 'trial');
+    assert.ok(card.alt.length > 40);
+    assert.match(card.source, /AI-gegenereerd/);
+    const bytes = await readFile(new URL(`../${card.image}`, import.meta.url));
+    assert.equal(bytes.toString('ascii', 0, 4), 'RIFF');
+    assert.equal(bytes.toString('ascii', 8, 12), 'WEBP');
+    assert.ok(bytes.length < 500_000, 'image must stay below 500 KB');
   }
 });

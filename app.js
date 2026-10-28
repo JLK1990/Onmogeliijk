@@ -13,7 +13,7 @@ function showCard() {
   remaining = round.remaining;
   lastQuestion = round.lastQuestion;
   $('status').textContent = '';
-  $('card-label').hidden = current.status !== 'placeholder';
+  $('card-label').hidden = !['placeholder', 'trial'].includes(current.status);
   $('card-image').src = current.image;
   $('card-image').alt = current.alt;
   $('card-number').textContent = `${String(cards.indexOf(current) + 1).padStart(2, '0')} / ${String(cards.length).padStart(2, '0')}`;

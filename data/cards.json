@@ -3,36 +3,39 @@
     "id": "001",
     "title": "Het gevolg vóór de oorzaak",
     "concept": "Een gewone straat waarin de gevolgen van een gebeurtenis al zichtbaar zijn, terwijl de gebeurtenis zelf nog niet heeft plaatsgevonden.",
-    "image": "assets/proef-001.svg",
-    "alt": "Tijdelijke beeldplaats voor proefconcept 001: Het gevolg vóór de oorzaak. Het definitieve beeld ontbreekt nog.",
-    "status": "placeholder",
+    "image": "assets/gevolg-voor-oorzaak.webp",
+    "alt": "Een intacte bloempot hangt boven een stoep waarop scherven, aarde en eenzelfde plant al verspreid liggen.",
+    "status": "trial",
     "questions": [
       "Kan iets al gebeurd zijn voordat het begint?",
       "Waaraan merk je dat iets begonnen is?"
-    ]
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   },
   {
     "id": "002",
     "title": "Het huis dat zich iets herinnert",
     "concept": "Een gewone kamer waarin de afwezigheid van iets of iemand op een fysiek onmogelijke manier zichtbaar is.",
-    "image": "assets/proef-002.svg",
-    "alt": "Tijdelijke beeldplaats voor proefconcept 002: Het huis dat zich iets herinnert. Het definitieve beeld ontbreekt nog.",
-    "status": "placeholder",
+    "image": "assets/huis-herinnert.webp",
+    "alt": "In een zonnige woonkamer houdt een deken op een fauteuil de vorm van een zittend lichaam vast, met een lege halsopening.",
+    "status": "trial",
     "questions": [
       "Kan iets verdwijnen zonder weg te zijn?",
       "Wat blijft er achter als iets verdwijnt?"
-    ]
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   },
   {
     "id": "003",
     "title": "De regen die binnen blijft",
     "concept": "Een zonnige keuken waarin het uitsluitend boven de ontbijttafel regent. De rest van de ruimte blijft droog.",
-    "image": "assets/proef-003.svg",
-    "alt": "Tijdelijke beeldplaats voor proefconcept 003: De regen die binnen blijft. Het definitieve beeld ontbreekt nog.",
-    "status": "placeholder",
+    "image": "assets/regen-binnen.webp",
+    "alt": "In een zonnige keuken valt regen boven een gedekte ontbijttafel; de omliggende keuken blijft droog.",
+    "status": "trial",
     "questions": [
       "Waar houdt het weer op?",
       "Wat maakt een plek beschut?"
-    ]
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   }
 ]

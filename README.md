@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De drie nieuwe concepten gebruiken neutrale beeldplaatsen met tekst, geen definitieve kunstwerken. De oorspronkelijke SVG-illustraties blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De drie concepten hebben AI-gegenereerde fotorealistische proefbeelden in WebP-formaat. Ze zijn zichtbaar gemarkeerd als tijdelijke proefkaarten en wachten op afzonderlijke definitieve beoordeling. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -17,7 +17,7 @@ Controleer: Verras me → beeld → Ontdek de vraag → Andere vraag → Verras 
 
 ## Kaarten toevoegen of vervangen
 
-Bewerk `data/cards.json`. Elke kaart heeft een unieke `id`, een relatief `image`-pad, een beschrijvende `alt` en meerdere unieke `questions`. Plaats eigen of aantoonbaar gelicentieerde beelden in `assets/`. Gebruik relatieve paden zodat de app ook onder een GitHub Pages-projectpad werkt. Gebruik `status: "placeholder"` voor proefbeelden en `status: "approved"` alleen na afzonderlijke beeldbeoordeling. De proefkaartmarkering wordt automatisch verborgen bij goedgekeurde kaarten. `title` en `concept` documenteren het idee zonder de bezoeker een interpretatie voor te schrijven. Gebruik bij voorkeur geoptimaliseerde WebP-beelden (circa 1600–2000 pixels breed); belangrijke details blijven zichtbaar doordat beelden niet worden bijgesneden. Verwijder ongebruikte proefbestanden en leg de rechten van nieuwe beelden vast.
+Bewerk `data/cards.json`. Elke kaart heeft een unieke `id`, een relatief `image`-pad, een beschrijvende `alt` en meerdere unieke `questions`. Plaats eigen of aantoonbaar gelicentieerde beelden in `assets/`. Gebruik relatieve paden zodat de app ook onder een GitHub Pages-projectpad werkt. Gebruik `status: "placeholder"` voor lege beeldplaatsen, `status: "trial"` voor proefbeelden en `status: "approved"` alleen na afzonderlijke beeldbeoordeling. De proefkaartmarkering wordt automatisch verborgen bij goedgekeurde kaarten. `title` en `concept` documenteren het idee zonder de bezoeker een interpretatie voor te schrijven. Gebruik bij voorkeur geoptimaliseerde WebP-beelden (circa 1600–2000 pixels breed); belangrijke details blijven zichtbaar doordat beelden niet worden bijgesneden. Verwijder ongebruikte proefbestanden en leg de rechten van nieuwe beelden vast.
 
 ## Publiceren met GitHub Pages
 
@@ -40,8 +40,18 @@ Geen backend, database, account, API-sleutel of buildstap nodig. Publicatie is e
 
 ## Ontwikkelronde: droomlogica
 
-De drie proefconcepten zijn Het gevolg vóór de oorzaak, Het huis dat zich iets herinnert en De regen die binnen blijft. Ieder concept heeft de opgegeven hoofdvraag en één extra vraag. Er zijn nog geen definitieve beelden of automatisch goedgekeurde AI-beelden toegevoegd. Beoordeel kandidaten afzonderlijk op fotografische geloofwaardigheid, originaliteit, zichtbare onmogelijkheid en nieuwsgierigheid. Een aantrekkelijk beeld zonder de bedoelde paradox valt af.
+De drie proefconcepten zijn Het gevolg vóór de oorzaak, Het huis dat zich iets herinnert en De regen die binnen blijft. Ieder concept heeft de opgegeven hoofdvraag en één extra vraag. Er zijn drie AI-gegenereerde proefbeelden toegevoegd, geen definitief goedgekeurde kunstwerken. Beoordeel kandidaten afzonderlijk op fotografische geloofwaardigheid, originaliteit, zichtbare onmogelijkheid en nieuwsgierigheid. Een aantrekkelijk beeld zonder de bedoelde paradox valt af.
 
 De initiatiefvermelding linkt naar Je Kern tot Bloei. De referentiesite kon vanuit de ontwikkelomgeving niet worden opgehaald (HTTP 403). Het aangeleverde logo is als visuele referentie gebruikt: wit, donkergrijs en twee roze tinten. Het roze accent is voor knoptekstcontrast verdiept. Dit zijn visueel afgeleide kleuren, geen bevestigde huisstijlwaarden. De precieze lettertypen zijn onbekend; de app gebruikt lokale systeemlettertypen. Het door de gebruiker aangeleverde SVG-logo staat ongewijzigd in `assets/logo.svg` en verschijnt bij de initiatiefvermelding. Het wordt lokaal geladen, zonder externe afhankelijkheden.
 
 Browsercontrole met Chromium: volledige klikvolgorde op 390 × 844 en 1440 × 1000, geladen beelden, geen horizontale overflow en geen JavaScript-fouten. Geautomatiseerde interactietests controleren ook vraaggeschiedenis bij terugkeer naar een kaart.
+
+### Beeldbeoordeling van de proefversie
+
+De drie afbeeldingen zijn speciaal voor deze app gegenereerd, zonder externe stockbeelden of nabootsing van genoemde kunstenaars. `source` in de kaartdata vermeldt de herkomst. Alle bestanden zijn 1536 × 1024 pixels, geoptimaliseerd als WebP onder 500 KB; de PNG-originelen blijven buiten de repository in de cloudwerkruimte bewaard.
+
+- **001:** overtuigende stoep, terracotta en daglicht. De intacte pot boven zijn scherven maakt de tegenspraak zichtbaar; de tijdsvolgorde blijft open voor interpretatie.
+- **002:** geloofwaardig interieur en textiel. De lege hals en gedragen deken suggereren afwezigheid; kan ook als een verborgen persoon worden gelezen. Dit is de minst eenduidige proef en vraagt verdere artistieke beoordeling.
+- **003:** zichtbaar lokale regen en spatten op de tafel, zonnige droge omgeving. De oorsprong van de regen valt buiten beeld; bij een volgende versie kan het beginpunt in de lucht explicieter worden.
+
+De proefkaartmarkering blijft bij alle drie actief. Definitieve acceptatie is een aparte inhoudelijke keuze.

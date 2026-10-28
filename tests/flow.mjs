@@ -4,14 +4,14 @@ import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 const source = (await readFile(new URL('../app.js', import.meta.url), 'utf8')).replace("new URL('./data/cards.json', import.meta.url)", "'cards.json'");
 const cards = JSON.parse(await readFile(new URL('../data/cards.json', import.meta.url)));
-async function setup(fail = false) {
+async function setup(fail = false, fixture = cards) {
   const elements = new Map();
   const context = vm.createContext({
     document: { getElementById(id) {
       if (!elements.has(id)) elements.set(id, { hidden: ['experience', 'question-panel'].includes(id), disabled: id === 'start', textContent: '', handlers: {}, addEventListener(event, fn) { this.handlers[event] = fn; }, focus() { this.focused = true; } });
       return elements.get(id);
     } },
-    fetch: async () => ({ ok: !fail, json: async () => structuredClone(cards) }), URL,
+    fetch: async () => ({ ok: !fail, json: async () => structuredClone(fixture) }), URL,
   });
   vm.runInContext(source, context);
   await new Promise(setImmediate);
@@ -71,5 +71,24 @@ test('all fifteen artworks are valid WebP files with accessible descriptions', a
     assert.equal(bytes.toString('ascii', 0, 4), 'RIFF');
     assert.equal(bytes.toString('ascii', 8, 12), 'WEBP');
     assert.ok(bytes.length < 500_000, 'image must stay below 500 KB');
+  }
+});
+
+test('rejects external and ambiguous image paths before enabling the app', async () => {
+  const unsafePaths = [
+    'https://example.com/photo.webp', '//example.com/photo.webp',
+    'data:image/svg+xml,<svg/>', 'javascript:alert(1)',
+    '/assets/photo.webp', '../assets/photo.webp', 'assets/../photo.webp',
+    'assets/sub/photo.webp', 'assets/%2e%2e/photo.webp',
+    'assets/photo.webp?tracking=1', 'assets/photo.webp#fragment',
+    'assets/photo%2ewebp', 'assets/photo.html', 'assets/photo.webp/extra',
+    'assets/\\photo.webp', ' assets/photo.webp', 'assets/photo.webp\n',
+  ];
+  for (const image of unsafePaths) {
+    const fixture = structuredClone(cards);
+    fixture[0].image = image;
+    const { el } = await setup(false, fixture);
+    assert.equal(el('start').disabled, true, JSON.stringify(image));
+    assert.match(el('status').textContent, /niet worden geladen/);
   }
 });

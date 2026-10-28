@@ -27,3 +27,9 @@ body:has(#intro:not([hidden])) main{display:flex;flex-direction:column;justify-c
 .intro h1{margin:0 0 18px}
 .intro #start{margin-top:44px}
 @media(max-width:600px){.intro{padding:64px 0}}
+
+.privacy-link{color:var(--muted);font-size:11px;letter-spacing:0;text-underline-offset:4px}
+.privacy-page{max-width:760px;padding-top:40px;padding-bottom:48px;line-height:1.75}
+.privacy-page h1{font-size:clamp(36px,6vw,56px);letter-spacing:-.03em;margin:0 0 24px}
+.privacy-page h2{font-size:18px;line-height:1.4;margin-top:30px}
+.privacy-page a{color:var(--accent);text-underline-offset:3px}

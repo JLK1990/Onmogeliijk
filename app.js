@@ -51,6 +51,7 @@ async function init() {
     cards = await response.json();
     if (!Array.isArray(cards) || !cards.length || !cards.every((card) =>
       typeof card.id === 'string' && typeof card.image === 'string' &&
+      /^assets\/[a-z0-9]+(?:-[a-z0-9]+)*\.(?:webp|svg)$/.test(card.image) &&
       typeof card.alt === 'string' && card.alt.trim() && Array.isArray(card.questions) &&
       card.questions.length && card.questions.every((q) => typeof q === 'string' && q.trim()) &&
       new Set(card.questions).size === card.questions.length)) throw new Error('Ongeldige kaarten');

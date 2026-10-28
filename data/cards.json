@@ -1,0 +1,17 @@
+[
+  {
+    "id": "deur", "image": "assets/deur.svg",
+    "alt": "Tijdelijke illustratie: een vrijstaande deur op een leeg landschap, met een stukje nacht achter de opening.",
+    "questions": ["Waar zou je willen uitkomen als je zomaar een deur kon openen?", "Wat maakt een plek voor jou de moeite waard om te ontdekken?", "Wat zou je van de andere kant willen zien?"]
+  },
+  {
+    "id": "zee", "image": "assets/zee.svg",
+    "alt": "Tijdelijke illustratie: een stille zee met een rechthoekig stukje water dat boven het oppervlak zweeft.",
+    "questions": ["Wat zou je van dichtbij willen bekijken?", "Wanneer wordt iets gewoons voor jou bijzonder?", "Wat zou er gebeuren als dit heel normaal was?"]
+  },
+  {
+    "id": "schaduw", "image": "assets/schaduw.svg",
+    "alt": "Tijdelijke illustratie: een kleine boom op een vlakte met een schaduw in de vorm van een trap.",
+    "questions": ["Wat zou je ontdekken als je een ander standpunt koos?", "Wat trekt als eerste je aandacht als je ergens nieuw bent?", "Waar zou een onverwacht pad je naartoe mogen brengen?"]
+  }
+]

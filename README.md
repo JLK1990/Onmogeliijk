@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De drie concepten hebben AI-gegenereerde fotorealistische proefbeelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaart 003 blijft een tijdelijke proefkaart. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met vijf kaarten. De vijf concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003, 004 en 005 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -25,7 +25,7 @@ Bewerk `data/cards.json`. Elke kaart heeft een unieke `id`, een relatief `image`
 2. Ga naar **Settings → Pages**.
 3. Kies **Deploy from a branch**, branch **main**, map **/ (root)** en klik **Save**.
 4. Wacht tot de Pages-deployment slaagt en open de URL die GitHub toont.
-5. Controleer daar de volledige klikvolgorde en of de drie beelden laden.
+5. Controleer daar de volledige klikvolgorde en of alle beelden laden.
 
 Geen backend, database, account, API-sleutel of buildstap nodig. Publicatie is een aparte handeling; deze bestanden publiceren zichzelf niet.
 
@@ -48,7 +48,7 @@ Browsercontrole met Chromium: volledige klikvolgorde op 390 × 844 en 1440 × 10
 
 ### Beeldbeoordeling van de proefversie
 
-De drie afbeeldingen zijn speciaal voor deze app gegenereerd, zonder externe stockbeelden of nabootsing van genoemde kunstenaars. `source` in de kaartdata vermeldt de herkomst. Alle bestanden zijn 1536 × 1024 pixels, geoptimaliseerd als WebP onder 500 KB; de PNG-originelen blijven buiten de repository in de cloudwerkruimte bewaard.
+De drie afbeeldingen zijn speciaal voor deze app gegenereerd, zonder externe stockbeelden of nabootsing van genoemde kunstenaars. `source` in de kaartdata vermeldt de herkomst. Alle actieve kaartbeelden zijn 1536 × 1024 pixels, geoptimaliseerd als WebP onder 500 KB; de PNG-originelen blijven buiten de repository in de cloudwerkruimte bewaard.
 
 - **001:** overtuigende stoep, terracotta en daglicht. De intacte pot boven zijn scherven maakt de tegenspraak zichtbaar; de tijdsvolgorde blijft open voor interpretatie.
 - **002:** geloofwaardig interieur en textiel. De lege hals en gedragen deken suggereren afwezigheid; kan ook als een verborgen persoon worden gelezen. Dit is de minst eenduidige proef en vraagt verdere artistieke beoordeling.
@@ -59,3 +59,10 @@ Kaarten 001 (bloempot) en 002 (lege stoel met de deken) zijn door de gebruiker g
 ### Herziening kaart 003
 
 De eerste keukenregen kon als lekkage worden gelezen en is niet langer actief. De nieuwe proef `regen-omhoog.webp` toont druppelsporen boven de ontbijttafel, met zichtbaar droog plafond en een vrije ruimte boven het water. Het idee is opwaartse regen; de bewegingsrichting is in een stilstaand beeld nog dubbelzinnig. Deze versie is daarom nadrukkelijk een proef, geen definitief goedgekeurd werk. De vragen zijn aangepast aan het nieuwe concept. Het oude beeld blijft als niet-actieve versie bewaard.
+
+### Twee aanvullende concepten
+
+De bestaande kaart-id’s blijven stabiel. De twee nieuwe ideeën zijn daarom toegevoegd als 004 en 005, zonder de eerder geselecteerde beelden te vervangen. Beide bevatten letterlijk de twee aangeleverde vragen.
+
+- **004 — Vier tijden aan één tafel:** één doorlopende tafel en kamer met vier lichtmomenten, ontbijt tot nacht. De verschillende tijden zijn duidelijk zichtbaar, ook in het raam; het beeld blijft een proef voor inhoudelijke beoordeling.
+- **005 — De boekenkast die groter wordt:** een kleine kast naast een grote spiegel met een diepe bibliotheek. Fotografisch overtuigend, maar de spiegel kan ook als doorgang worden gelezen en de exacte overeenkomst van de kast is niet volledig. Daarom nog niet definitief goedgekeurd.

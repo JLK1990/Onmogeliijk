@@ -37,5 +37,31 @@
       "Wat bepaalt welke kant iets opgaat?"
     ],
     "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "004",
+    "title": "Vier tijden aan één tafel",
+    "concept": "Dezelfde plek hoeft niet hetzelfde moment te delen. Vier mensen zitten aan één doorlopende eettafel, ieder in een ander tijdstip.",
+    "image": "assets/vier-tijden.webp",
+    "alt": "Vier mensen zitten aan één doorlopende eettafel: ochtendlicht en ontbijt links, middaglicht, zonsondergang en nacht met een kaars rechts.",
+    "status": "trial",
+    "questions": [
+      "Kun je samen zijn zonder in hetzelfde moment te zijn?",
+      "Beleven we hetzelfde moment ooit precies hetzelfde?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "005",
+    "title": "De boekenkast die groter wordt",
+    "concept": "De grootte van iets hangt af van hoe je ernaar kijkt. Een gewone boekenkast wordt in de spiegel ernaast een eindeloze bibliotheek, terwijl de rest van de weerspiegeling klopt.",
+    "image": "assets/boekenkast-bibliotheek.webp",
+    "alt": "Naast een kleine houten boekenkast staat een grote spiegel met daarin een hoge, diepe bibliotheek en een weerspiegelde rand van de fauteuil.",
+    "status": "trial",
+    "questions": [
+      "Is iets altijd even groot?",
+      "Kan iets kleiner worden zonder te veranderen?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   }
 ]

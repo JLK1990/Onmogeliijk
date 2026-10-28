@@ -60,11 +60,11 @@ test('failed card load leaves start unavailable and explains failure', async () 
   assert.equal(el('start').disabled, true);
   assert.match(el('status').textContent, /niet worden geladen/);
 });
-test('all three trial artworks are valid WebP files with accessible descriptions', async () => {
+test('all three artworks are valid WebP files with accessible descriptions', async () => {
   assert.equal(cards.length, 3);
   assert.equal(new Set(cards.map((c) => c.id)).size, 3);
   for (const card of cards) {
-    assert.equal(card.status, 'trial');
+    assert.ok(['trial', 'approved'].includes(card.status));
     assert.ok(card.alt.length > 40);
     assert.match(card.source, /AI-gegenereerd/);
     const bytes = await readFile(new URL(`../${card.image}`, import.meta.url));

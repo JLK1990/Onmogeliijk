@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De drie concepten hebben AI-gegenereerde fotorealistische proefbeelden in WebP-formaat. Ze zijn zichtbaar gemarkeerd als tijdelijke proefkaarten en wachten op afzonderlijke definitieve beoordeling. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met drie **tijdelijke proefkaarten**. De drie concepten hebben AI-gegenereerde fotorealistische proefbeelden in WebP-formaat. Kaart 002 is door de gebruiker goedgekeurd en heeft geen proefmarkering meer. Kaarten 001 en 003 blijven gemarkeerd als tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -54,4 +54,4 @@ De drie afbeeldingen zijn speciaal voor deze app gegenereerd, zonder externe sto
 - **002:** geloofwaardig interieur en textiel. De lege hals en gedragen deken suggereren afwezigheid; kan ook als een verborgen persoon worden gelezen. Dit is de minst eenduidige proef en vraagt verdere artistieke beoordeling.
 - **003:** zichtbaar lokale regen en spatten op de tafel, zonnige droge omgeving. De oorsprong van de regen valt buiten beeld; bij een volgende versie kan het beginpunt in de lucht explicieter worden.
 
-De proefkaartmarkering blijft bij alle drie actief. Definitieve acceptatie is een aparte inhoudelijke keuze.
+Kaart 002 (de lege stoel met de deken) is door de gebruiker definitief goedgekeurd; de proefmarkering is voor die kaart verwijderd. Kaarten 001 en 003 wachten nog op afzonderlijke goedkeuring.

@@ -18,12 +18,12 @@
     "concept": "Een gewone kamer waarin de afwezigheid van iets of iemand op een fysiek onmogelijke manier zichtbaar is.",
     "image": "assets/huis-herinnert.webp",
     "alt": "In een zonnige woonkamer houdt een deken op een fauteuil de vorm van een zittend lichaam vast, met een lege halsopening.",
-    "status": "trial",
+    "status": "approved",
     "questions": [
       "Kan iets verdwijnen zonder weg te zijn?",
       "Wat blijft er achter als iets verdwijnt?"
     ],
-    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+    "source": "AI-gegenereerd voor ONMOGELIJK?; door de gebruiker goedgekeurd."
   },
   {
     "id": "003",

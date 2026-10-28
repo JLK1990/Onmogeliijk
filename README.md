@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met zes kaarten. De zes concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003, 004, 005 en 006 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met acht kaarten. De acht concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003 tot en met 008 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -72,3 +72,12 @@ De bestaande kaart-id’s blijven stabiel. De twee nieuwe ideeën zijn daarom to
 De vragen voor water op tafel (003), sofa/deken (002) en spiegel/boekenkast (005) zijn letterlijk vervangen door de aangeleverde selectie. Bloempot (001) en vier mensen aan tafel (004) zijn volledig ongewijzigd.
 
 Kaart **006 — De gang van vroeger** heeft drie aangeleverde vragen en een eigen fotorealistisch AI-beeld: een volwassene naast een deurklink ver boven haar hoofd, een enorme kapstok en een steile trap. Het natuurlijke licht, terrazzo, hout en textiel ondersteunen de geloofwaardigheid; de afwijkende schaal is zichtbaar. Het WebP-bestand is 1536 × 1024 pixels en kleiner dan 500 KB. Geen placeholder of definitief vervangend beeld nodig; inhoudelijke goedkeuring staat nog open, daarom blijft de proefmarkering actief.
+
+### Vergrote gang en twee nieuwe kaarten
+
+Op verzoek is alleen het beeld van 006 herzien: ook de jassen, achterdeur en traptreden zijn nu fors vergroot ten opzichte van de volwassene. De vragen zijn behouden. De vorige afbeelding blijft als niet-actief bestand bewaard.
+
+- **007 — De tuin met twee waarheden:** fotorealistische boom met één doorlopende stam en wortelstelsel, bloesem en groene bladeren tegenover kale wintertakken. De twee opgegeven vragen zijn letterlijk overgenomen. De seizoenswisseling kleurt ook delen van de tuin; dit blijft een proefbeeld voor beoordeling.
+- **008 — Het boek dat jou leest:** close-up over de schouder met een fotografische herhaling van de lezer, het boek en de bibliotheek op de bladzijden. De echte lezer kijkt omlaag, haar afgebeelde gezicht kijkt terug. De drie opgegeven vragen zijn letterlijk overgenomen. Volledig eigen scène, zonder verwijzingen naar The NeverEnding Story.
+
+Beide nieuwe beelden zijn geoptimaliseerde WebP-bestanden van 1536 × 1024 pixels en blijven gemarkeerd als proefkaarten tot afzonderlijke goedkeuring. Alle overige bestaande kaartgegevens zijn tegen de vorige Git-versie gecontroleerd en ongewijzigd.

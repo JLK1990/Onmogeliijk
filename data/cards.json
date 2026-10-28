@@ -68,13 +68,40 @@
     "id": "006",
     "title": "De gang van vroeger",
     "concept": "Een plek kan de afmetingen van een herinnering hebben. Een volwassene staat in een vertrouwde gang met een opvallend hoge deurklink, een enorme kapstok en een indrukwekkend steile trap.",
-    "image": "assets/gang-van-vroeger.webp",
-    "alt": "Een volwassen vrouw staat in een alledaagse gang bij een deur met de klink ver boven haar hoofd; naast haar hangen enorme jassen en loopt een steile trap omhoog.",
+    "image": "assets/gang-van-vroeger-groot.webp",
+    "alt": "Een volwassen vrouw in een sterk vergrote gang: twee enorme deuren, reusachtige jassen aan de kapstok en traptreden die tot haar knieën reiken.",
     "status": "trial",
     "questions": [
       "Verandert een plek als jij verandert?",
       "Welke dingen zie je anders met de ogen van nu?",
       "Is de plek die je je herinnert dezelfde plek waar je ooit was?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "007",
+    "title": "De tuin met twee waarheden",
+    "concept": "Eén levend geheel bevindt zich tegelijkertijd in twee seizoenen. Eén grote boom heeft een doorlopende stam en één wortelstelsel, met bloesem en groene bladeren aan de ene kant en kale wintertakken aan de andere kant.",
+    "image": "assets/tuin-twee-waarheden.webp",
+    "alt": "Eén grote tuinboom met één doorlopende stam en verbonden wortels draagt links roze bloesem en groene bladeren, en rechts kale winterse takken.",
+    "status": "trial",
+    "questions": [
+      "Kunnen twee tegenstrijdigheden tegelijk waar zijn?",
+      "Moet iets helemaal hetzelfde zijn om één geheel te vormen?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "008",
+    "title": "Het boek dat jou leest",
+    "concept": "De waarnemer wordt zelf waargenomen door wat die bekijkt. Een lezer kijkt naar een opengeslagen boek met dezelfde bibliotheekscène; de afgebeelde lezer kijkt vanuit de bladzijde terug.",
+    "image": "assets/boek-dat-jou-leest.webp",
+    "alt": "Over de schouder van een lezende vrouw zien we haar boek: op de bladzijden staat dezelfde vrouw met hetzelfde boek in de bibliotheek, maar haar afgebeelde gezicht kijkt naar haar terug.",
+    "status": "trial",
+    "questions": [
+      "Wie kijkt er eigenlijk naar wie?",
+      "Kun je onderdeel zijn van wat je probeert te begrijpen?",
+      "Kun je iets bekijken zonder er zelf deel van uit te maken?"
     ],
     "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   }

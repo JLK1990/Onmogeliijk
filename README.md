@@ -1,6 +1,6 @@
 # ONMOGELIJK? — versie 0.1
 
-Even anders kijken. Een statische webapp met vijftien kaarten. De vijftien concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003 tot en met 015 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
+Even anders kijken. Een statische webapp met achttien kaarten. De achttien concepten hebben AI-gegenereerde fotorealistische beelden in WebP-formaat. Kaarten 001 en 002 zijn door de gebruiker goedgekeurd en hebben geen proefmarkering meer. Kaarten 003 tot en met 018 blijven tijdelijke proefkaarten. De oorspronkelijke SVG-illustraties en neutrale beeldplaatsen blijven bewaard maar worden niet meer getoond. Er worden geen externe afbeeldingen, lettertypen of diensten geladen.
 
 ## Lokaal testen
 
@@ -105,3 +105,11 @@ Beide HTML-pagina’s bevatten vóór scripts en stylesheets een Content Securit
 Kaartafbeeldingen moeten het formaat `assets/naam-met-streepjes.webp` of `assets/naam-met-streepjes.svg` volgen: alleen kleine letters, cijfers en enkele koppeltekens in de bestandsnaam. Externe URL’s, absolute paden, submappen, padtraversal, escapes, querystrings en fragmenten worden afgewezen voordat de startknop beschikbaar komt. Toegestane namen moeten nog steeds naar bestaande bestanden verwijzen; de bestandscontrole gebeurt ook in de tests.
 
 Validatie: vier Node-tests slagen, inclusief afwijzing van onveilige afbeeldingspaden. Alle vijftien kaarten met alle vragen, afbeeldingen, logo, knoppen en de privacypagina zijn in Chromium gecontroleerd op 390 en 1440 pixels breed, onder `/Onmogeliijk/`. Ook serveren vanaf `/` werkt. Geen normale CSP-overtredingen; proefinjecties van inline script, externe afbeelding en base-element werden geblokkeerd. Een onderschepte uitgaande link bevatte geen Referer-header. De bereikbaarheid van de externe bestemmingen en de uiteindelijke live Pages-deployment zijn daarmee niet bevestigd.
+
+### Uitbreiding naar achttien kaarten (016–018)
+
+De steen die niets weegt, De muur waar je doorheen kunt en De brug die nergens op rust zijn toegevoegd met de zes letterlijk aangeleverde vragen. De vijftien bestaande kaartobjecten zijn exact behouden, evenals alle bestaande afbeeldingen, de vormgeving en het beveiligingsbeleid. De collectie telt exact achttien unieke kaart-id’s.
+
+Drie originele AI-gegenereerde WebP-beelden van 1536 × 1024 pixels, elk kleiner dan 500 KB, zijn beschikbaar; er ontbreken geen afbeeldingsbestanden. Beoordeling: het kind ondersteunt de grote steen ontspannen en de volwassene probeert de veer met beide handen te tillen; de persoon kruist intact metselwerk zonder transparantie, maar de hoek kan ook als langs een wandrand lopen worden gelezen; de brug heeft een duidelijk open middendeel zonder steun, al kan de grote pas ook aan een sprong doen denken. De beelden blijven daarom proefkaarten tot afzonderlijke inhoudelijke goedkeuring.
+
+Controle van deze uitbreiding: vier Node-tests slagen. Alle achttien kaartbeelden zijn in Chromium onder `/Onmogeliijk/` geladen op 390 en 1440 pixels breed. De drie nieuwe kaarten zijn afzonderlijk doorlopen met exact gekoppelde vragen, verborgen vragen bij een nieuwe kaart, afwisselende vragen, een ander volgend beeld en zonder horizontale overflow of CSP-fouten. Privacypagina en logo blijven werken. De uiteindelijke live GitHub Pages-deployment is hiermee niet bevestigd.

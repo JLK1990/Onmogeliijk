@@ -195,5 +195,44 @@
       "Kun je elkaar begrijpen zonder hetzelfde te horen?"
     ],
     "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "016",
+    "title": "De steen die niets weegt",
+    "concept": "Gewicht gedraagt zich niet zoals we verwachten: een kind houdt ontspannen een enorm rotsblok met één hand omhoog, terwijl een volwassene een klein veertje niet opgetild krijgt.",
+    "image": "assets/steen-zonder-gewicht.webp",
+    "alt": "Een ontspannen kind houdt met één hand een enorm rotsblok boven het hoofd; ernaast spant een volwassene zich met beide handen in om een veer van het tuinpad te tillen.",
+    "status": "trial",
+    "questions": [
+      "Wat maakt iets zwaar?",
+      "Kan iets kleins zwaarder wegen dan iets groots?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "017",
+    "title": "De muur waar je doorheen kunt",
+    "concept": "Een persoon loopt rustig door een massieve, intacte bakstenen muur, alsof de stenen geen weerstand bieden.",
+    "image": "assets/muur-doorheen.webp",
+    "alt": "Een wandelende man is aan beide kanten van een bakstenen wand zichtbaar; zijn lichaam lijkt door het onbeschadigde metselwerk heen te gaan.",
+    "status": "trial",
+    "questions": [
+      "Is een grens altijd een grens?",
+      "Zijn de muren die we zelf creëren net zo echt als we denken?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
+  },
+  {
+    "id": "018",
+    "title": "De brug die nergens op rust",
+    "concept": "Een voetgangersbrug heeft een groot ontbrekend middendeel, maar een persoon loopt ontspannen verder boven de lege doorgang.",
+    "image": "assets/brug-zonder-steun.webp",
+    "alt": "Tussen twee houten brugdelen met een breed gat loopt een man met zijn handen in zijn zakken boven de lege ruimte, zonder planken of steun onder zijn voeten.",
+    "status": "trial",
+    "questions": [
+      "Heb je altijd houvast nodig om verder te komen?",
+      "Kan vertrouwen iets dragen?"
+    ],
+    "source": "AI-gegenereerd voor ONMOGELIJK?; proefbeeld, nog niet definitief goedgekeurd."
   }
 ]

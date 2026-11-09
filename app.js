@@ -1,14 +1,32 @@
 const $ = (id) => document.getElementById(id);
 let cards = [];
 let current = null;
+let cardDeck = [];
 let remaining = [];
 let lastQuestion = null;
 const questionRounds = new Map();
 const pick = (items) => items[Math.floor(Math.random() * items.length)];
 
+function drawCard() {
+  if (!cardDeck.length) {
+    cardDeck = [...cards];
+    // Fisher–Yates: each round contains every card exactly once.
+    for (let i = cardDeck.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [cardDeck[i], cardDeck[j]] = [cardDeck[j], cardDeck[i]];
+    }
+    // The next draw comes from the end. Avoid a repeat across rounds.
+    const last = cardDeck.length - 1;
+    if (last > 0 && cardDeck[last] === current) {
+      const j = Math.floor(Math.random() * last);
+      [cardDeck[last], cardDeck[j]] = [cardDeck[j], cardDeck[last]];
+    }
+  }
+  return cardDeck.pop();
+}
+
 function showCard() {
-  const options = cards.filter((card) => card !== current);
-  current = pick(options.length ? options : cards);
+  current = drawCard();
   const round = questionRounds.get(current.id) || { remaining: [...current.questions], lastQuestion: null };
   remaining = round.remaining;
   lastQuestion = round.lastQuestion;
